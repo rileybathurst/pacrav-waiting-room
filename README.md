@@ -1,6 +1,6 @@
 # PACRAV
 
-Landing page for [https://pacrav.com](pacrav.com) base build of webpack to provide a local server and compression
+Landing page for [pacrav.com](https://pacrav.com) base build of webpack to provide a local server and compression
 
 ## Development
 
