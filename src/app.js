@@ -12,6 +12,7 @@ function component() {
 
      const myIcon = new Image();
      myIcon.src = plogo;
+     myIcon.alt = "pacrav logo";
 
      element.appendChild(myIcon);
      return element;
@@ -25,6 +26,7 @@ function picture() {
 
      const myImage = new Image();
      myImage.src = physio;
+     myImage.alt = "matt working on a patient";
 
      diiv.appendChild(myImage);
      return diiv;
