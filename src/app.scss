@@ -11,7 +11,7 @@ body, header, main, section, footer, h1, hr {
 html {font-size: 100%;} /*16px*/
 
 body {
-background-color: lightgray;
+// background-color: lightgray;
 font-weight: 400;
 line-height: 1.65;
 color: #333;
@@ -42,7 +42,7 @@ small, .text_small {font-size: 0.8em;}
 
 body {
   background: white;
-  color: $primary;
+  // color: $primary;
   font-family: sans-serif;
 }
 
@@ -169,4 +169,20 @@ hr {
   overflow: hidden;
   position: absolute !important;
   width: 1px;
+}
+
+article {
+  padding: 1em;
+  max-width: 44em;
+  margin: 0 auto;
+}
+
+.halfs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.halfs p {
+  flex: 1 1 22em;
 }
