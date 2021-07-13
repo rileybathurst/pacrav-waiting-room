@@ -2,34 +2,15 @@
   "name": "pacrav-waiting-room",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "webpack -p",
-    "start": "webpack-dev-server"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "autoprefixer": "^9.7.4",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.4.2",
-    "extract-loader": "^3.1.0",
-    "file-loader": "^4.3.0",
-    "html-loader": "^0.5.5",
-    "install": "^0.12.2",
-    "lodash": "^4.17.21",
-    "node-sass": "^4.13.1",
-    "npm": "^6.14.6",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.3.1",
-    "serialize-javascript": "^3.0.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
-  },
-  "dependencies": {}
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.2"
+  }
 }
